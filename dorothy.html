@@ -1,37 +1,69 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="style.css">
-    <title>Dorothy Johnson Vaughan</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dorothy Johnson Vaughan | Mulheres da Tecnologia</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600&family=Plus+Jakarta+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header class="cabecalho">
-        <h1 id="titulo">Dorothy Johnson Vaughan</h1>
-    </header>
-    
-    <div align="center">
-        <img src="dorothy.png" alt="Foto de Dorothy Johnson Vaughan" width="300">
-    </div >
 
-    <div align="center">
-        <p>
-            Dorothy Johnson Vaughan, nascida em Kansas City, 1910, foi matemática graduada pela Wilberforce University.
-        </p>
-
-        <p>
-            Durante seus 28 anos de carreira na NASA, foi chefe de um grupo de trabalho formado apenas por mulheres negras e matemáticas, e tornou-se a primeira supervisora negra.
-        </p>
-            
-        <p>
-            Autodidata, especializou-se na linguagem de programação FORTRAN, e por isto liderou a seção de programação da Divisão de Análise e Computação do Langley Research Center. Não é coisa pouca! Quem nunca sonhou em ser programadora na NASA? A Dorothy realizou essa tarefa e participou de projetos muito importantes.
-        </p>
-            
-        <p>
-            Além disso, ela também é uma das mulheres destacada na história Estrelas Além do Tempo (Hidden Figures) que foi lançado nos cinemas.
-        </p>
+  <header class="header">
+    <div class="nav-container">
+      <a href="index.html" class="logo">Women Tech</a>
+      <button class="hamburger" aria-label="Abrir Menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-menu">
+        <li><a href="index.html" class="nav-link">Início</a></li>
+        <li><a href="ada.html" class="nav-link">Ada Lovelace</a></li>
+        <li><a href="dorothy.html" class="nav-link active">Dorothy Vaughan</a></li>
+        <li><a href="grace.html" class="nav-link">Grace Hopper</a></li>
+        <li><a href="margareth.html" class="nav-link">Margaret Hamilton</a></li>
+      </ul>
     </div>
+  </header>
+
+  <main>
+    <div class="container">
+      <div class="profile-grid">
+        
+        <!-- Coluna da Imagem -->
+        <aside class="profile-sidebar">
+          <div class="profile-frame">
+            <img src="dorothy.png" alt="Dorothy Johnson Vaughan">
+          </div>
+        </aside>
+
+        <!-- Coluna de Texto -->
+        <article class="profile-content">
+          <span class="profile-tag">Supervisora & Programadora da NASA</span>
+          <h1 class="profile-title">Dorothy Johnson Vaughan</h1>
+          
+          <div class="profile-bio">
+            <p>Dorothy Johnson Vaughan, nascida em Kansas City (1910), foi matemática graduada pela Wilberforce University.</p>
+            <p>Durante seus 28 anos de carreira na NASA, foi chefe de um grupo de trabalho formado apenas por mulheres negras e matemáticas, tornando-se a primeira supervisora negra da instituição.</p>
+            <p>Autodidata, especializou-se na linguagem de programação FORTRAN, liderando a seção de programação da Divisão de Análise e Computação do Langley Research Center. Dorothy realizou tarefas fundamentais e participou de projetos muito importantes da era espacial.</p>
+            <p>Além disso, ela é uma das mulheres destacadas na história retratada no filme <em>Estrelas Além do Tempo</em> (Hidden Figures).</p>
+          </div>
+
+          <a href="index.html" class="btn-back">&larr; Voltar ao Início</a>
+        </article>
+
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-container">
+      <p>Desenvolvido por <strong>Rick</strong> | Contato: <i>rick@gmail.com</i> | (41) 9569-9999</p>
+      <p>Curitiba - Paraná</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>

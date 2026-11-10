@@ -1,31 +1,66 @@
 <!DOCTYPE html>
-<html lang="">
-
+<html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="style.css">
-    <title> Ada Augusta King - Ada Lovelace </title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ada Lovelace | Mulheres da Tecnologia</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600&family=Plus+Jakarta+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-    <header class="cabecalho">
-        <h1 id="titulo"> Ada Augusta King </h1>
-    </header>
-    <div align="center"> <img src="ada.png" alt="Ada Lovelace" width="300"> </div>
 
-  <div align="center">
- <p>
-    Ada Augusta King, Condessa de Lovelace (Byron, 1815 - 1852), foi uma matemática e escritora inglesa. Ela foi a primeira a reconhecer que máquinas poderiam ter aplicações além de puros cálculos e criou o primeiro algoritmo para ser processado por uma máquina, a máquina analítica de Charles Babbage.
-</p>
+  <header class="header">
+    <div class="nav-container">
+      <a href="index.html" class="logo">Women Tech</a>
+      <button class="hamburger" aria-label="Abrir Menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-menu">
+        <li><a href="index.html" class="nav-link">Início</a></li>
+        <li><a href="ada.html" class="nav-link active">Ada Lovelace</a></li>
+        <li><a href="dorothy.html" class="nav-link">Dorothy Vaughan</a></li>
+        <li><a href="grace.html" class="nav-link">Grace Hopper</a></li>
+        <li><a href="margareth.html" class="nav-link">Margaret Hamilton</a></li>
+      </ul>
+    </div>
+  </header>
 
-<p>
-    Durante o período em que esteve envolvida com o projeto de Babbage, ela desenvolveu os algoritmos que permitiriam a máquina computar os valores de funções matemáticas, além de publicar uma coleção de notas sobre a máquina analítica.
-</p>
+  <main>
+    <div class="container">
+      <div class="profile-grid">
+        
+        <aside class="profile-sidebar">
+          <div class="profile-frame">
+            <img src="ada.png" alt="Ada Augusta King">
+          </div>
+        </aside>
 
-<p>
-    Por esse trabalho é considerada a primeira programadora de computadores de toda a história. Vale lembrar que ela escreveu o programa em um papel, com as instruções de como programar a máquina analítica, que nunca chegou a ser construída em seu tempo de vida. A Ada é até mesmo uma referência da cultura pop.
-</p>
+        <article class="profile-content">
+          <span class="profile-tag">Pioneira dos Algoritmos</span>
+          <h1 class="profile-title">Ada Augusta King</h1>
+          
+          <div class="profile-bio">
+            <p>Ada Augusta King, Condessa de Lovelace (Byron, 1815 – 1852), foi uma matemática e escritora inglesa. Foi a primeira a reconhecer que máquinas poderiam ter aplicações além de puros cálculos e criou o primeiro algoritmo para ser processado por uma máquina, a Máquina Analítica de Charles Babbage.</p>
+            <p>Durante o período em que esteve envolvida com o projeto de Babbage, desenvolveu os algoritmos que permitiriam à máquina computar os valores de funções matemáticas, além de publicar uma coleção de notas sobre a máquina analítica.</p>
+            <p>Por esse trabalho é considerada a primeira programadora de computadores de toda a história. Escreveu o programa em papel, com as instruções de como programar a máquina analítica, que nunca chegou a ser construída em seu tempo de vida. A Ada é até mesmo uma referência da cultura pop.</p>
+          </div>
 
+          <a href="index.html" class="btn-back">&larr; Voltar ao Início</a>
+        </article>
+
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-container">
+      <p>Desenvolvido por <strong>Rick</strong> | Contato: <i>rick@gmail.com</i> | (41) 9569-9999</p>
+      <p>Curitiba - Paraná</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
 </html>

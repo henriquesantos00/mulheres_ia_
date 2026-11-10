@@ -1,41 +1,68 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="style.css">
-    <title>Margaret Heafield Hamilton</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Margaret Heafield Hamilton | Mulheres da Tecnologia</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600&family=Plus+Jakarta+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header class="cabecalho"> 
-        <h1 id="titulo">Margaret Heafield Hamilton</h1>
-    </header>
 
-    <div align="center">
-        <img src="Margaret_Hamilton_1989.jpg" alt="Foto de Margaret" width="300">
+  <header class="header">
+    <div class="nav-container">
+      <a href="index.html" class="logo">Women Tech</a>
+      <button class="hamburger" aria-label="Abrir Menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-menu">
+        <li><a href="index.html" class="nav-link">Início</a></li>
+        <li><a href="ada.html" class="nav-link">Ada Lovelace</a></li>
+        <li><a href="dorothy.html" class="nav-link">Dorothy Vaughan</a></li>
+        <li><a href="grace.html" class="nav-link">Grace Hopper</a></li>
+        <li><a href="margareth.html" class="nav-link active">Margaret Hamilton</a></li>
+      </ul>
     </div>
+  </header>
 
-    <div align="center">
-        <p>
-            Margaret Heafield Hamilton (Paoli, 1936) é matemática, cientista da computação, engenheira de software e empresária.
-        </p> 
+  <main>
+    <div class="container">
+      <div class="profile-grid">
+        
+        <aside class="profile-sidebar">
+          <div class="profile-frame">
+            <img src="Margaret_Hamilton_1989.jpg" alt="Margaret Heafield Hamilton">
+          </div>
+        </aside>
 
-        <p>
-            Foi diretora da Divisão de Software no Laboratório de Instrumentação do MIT, que desenvolveu o programa de voo usado no projeto Apollo 11, software que impediu que o pouso na Lua fosse abortado por falha humana. Você entendeu bem: sem o programa que ela escreveu, nada de "pequeno passo para o homem, grande passo para a humanidade". Foi um grande passo para as mulheres também.
-        </p> 
+        <article class="profile-content">
+          <span class="profile-tag">Engenheira de Software da Apollo 11</span>
+          <h1 class="profile-title">Margaret Heafield Hamilton</h1>
+          
+          <div class="profile-bio">
+            <p>Margaret Heafield Hamilton (Paoli, 1936) é matemática, cientista da computação, engenheira de software e empresária.</p>
+            <p>Foi diretora da Divisão de Software no Laboratório de Instrumentação do MIT, onde desenvolveu o programa de voo usado no projeto Apollo 11 — o software de bordo que impediu que o pouso na Lua fosse abortado.</p>
+            <p>Em 1986, fundou sua própria empresa, a Hamilton Technologies Inc., com sede em Cambridge, onde desenvolveu seu paradigma para Sistemas e Design de Software.</p>
+            <p>Além de ser creditada por ter criado o termo "engenharia de software", foi uma das desenvolvedoras dos conceitos de computação paralela, agendamento por prioridade e testes de software.</p>
+            <p>Foi premiada com a Medalha Presidencial da Liberdade pelo presidente dos EUA Barack Obama, a maior honra atribuída a um civil naquele país.</p>
+          </div>
 
-        <p>
-            Em 1986 ela fundou sua própria empresa, a Hamilton Technologies Inc com sede em Cambridge. Onde desenvolveu seu paradigma para Sistemas e Design de Software, o Development Before the Fact.
-        </p>
+          <a href="index.html" class="btn-back">&larr; Voltar ao Início</a>
+        </article>
 
-        <p>
-            Além de ser creditada por ter criado o termo "engenharia de software", foi uma das desenvolvedoras dos conceitos de computação paralela, priority scheduling, teste de sistema, e capacidade de decisão com integração humana, tais como mostradores de prioridade que viriam a ser o fundamento do design de software ultra confiável.
-        </p>
-                
-        <p>
-            Foi premiada com a Medalha Presidencial da Liberdade pelo presidente dos EUA Barack Obama, maior honra a um civil daquele país.
-        </p>
+      </div>
     </div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-container">
+      <p>Desenvolvido por <strong>Rick</strong> | Contato: <i>rick@gmail.com</i> | (41) 9569-9999</p>
+      <p>Curitiba - Paraná</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>

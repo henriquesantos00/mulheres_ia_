@@ -1,38 +1,102 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Index de acesso a todas as páginas</title>
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="style.css"> 
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mulheres da Tecnologia | Início</title>
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600&family=Plus+Jakarta+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-    <header class="cabecalho">
-        <h1 id="titulo">Mulheres da Tecnologia</h1>
-    </header>
-    
-    <nav class="menu">
-        <ul>
-            <li><a href="ada.html">Ada</a></li>
-            <li><a href="grace.html">Grace</a></li>
-            <li><a href="margareth.html">Margaret</a></li>
-            <li><a href="dorothy.html">Dorothy</a></li>
-        </ul>
-    </nav>
 
-    <footer>
-        <div align="center">
-            <p>
-                <font color="#FFFFFF">
-                    <b>Desenvolvido por:</b> <i>rick</i> <br>
-                    <b>Contato:</b> <i>rick@gmail.com | (41) 9569-9999</i> <br>
-                    <i>Curitiba - Parana</i>
-                </font>
-            </p>
+  <header class="header">
+    <div class="nav-container">
+      <a href="index.html" class="logo">Women Tech</a>
+      <button class="hamburger" aria-label="Abrir Menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <ul class="nav-menu">
+        <li><a href="index.html" class="nav-link active">Início</a></li>
+        <li><a href="ada.html" class="nav-link">Ada Lovelace</a></li>
+        <li><a href="dorothy.html" class="nav-link">Dorothy Vaughan</a></li>
+        <li><a href="grace.html" class="nav-link">Grace Hopper</a></li>
+        <li><a href="margareth.html" class="nav-link">Margaret Hamilton</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <span class="hero-subtitle">Pioneiras & Visionárias</span>
+      <h1 class="hero-title">Mulheres na História da Tecnologia</h1>
+      <p class="hero-description">
+        Conheça as mentes brilhantes que desenharam o futuro da computação, programação e exploração espacial.
+      </p>
+    </section>
+
+    <section class="cards-grid">
+      <!-- Card Ada -->
+      <article class="card">
+        <div class="card-img-wrapper">
+          <img src="ada.png" alt="Ada Lovelace">
         </div>
-    </footer>
+        <div class="card-content">
+          <h2 class="card-title">Ada Lovelace</h2>
+          <p class="card-excerpt">A primeira programadora da história da computação.</p>
+          <a href="ada.html" class="btn-link">Ler Biografia &rarr;</a>
+        </div>
+      </article>
+
+      <!-- Card Dorothy -->
+      <article class="card">
+        <div class="card-img-wrapper">
+          <img src="dorothy.png" alt="Dorothy Vaughan">
+        </div>
+        <div class="card-content">
+          <h2 class="card-title">Dorothy Vaughan</h2>
+          <p class="card-excerpt">Líder e matemática pioneira da NASA e linguagem FORTRAN.</p>
+          <a href="dorothy.html" class="btn-link">Ler Biografia &rarr;</a>
+        </div>
+      </article>
+
+      <!-- Card Grace -->
+      <article class="card">
+        <div class="card-img-wrapper">
+          <img src="grace.jpg" alt="Grace Hopper">
+        </div>
+        <div class="card-content">
+          <h2 class="card-title">Grace Hopper</h2>
+          <p class="card-excerpt">Criadora do primeiro compilador e da linguagem COBOL.</p>
+          <a href="grace.html" class="btn-link">Ler Biografia &rarr;</a>
+        </div>
+      </article>
+
+      <!-- Card Margaret -->
+      <article class="card">
+        <div class="card-img-wrapper">
+          <img src="Margaret_Hamilton_1989.jpg" alt="Margaret Hamilton">
+        </div>
+        <div class="card-content">
+          <h2 class="card-title">Margaret Hamilton</h2>
+          <p class="card-excerpt">Diretora da divisão de software responsável pelo Voo da Apollo 11.</p>
+          <a href="margareth.html" class="btn-link">Ler Biografia &rarr;</a>
+        </div>
+      </article>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-container">
+      <p class="footer-text">Desenvolvido por <strong>Rick</strong> | Contato: <i>rick@gmail.com</i> | (41) 9569-9999</p>
+      <p class="footer-sub">Curitiba - Paraná</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
